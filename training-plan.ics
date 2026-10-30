@@ -1,185 +1,199 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//ChatGPT//Essens und Sportplan//DE
+PRODID:-//OpenAI//Essens- und Trainingsplan//DE
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Essens- und Sportplan 26.10.–01.11.2026
+X-WR-CALNAME:Essens- und Trainingsplan 02.-08.11.2026
 X-WR-TIMEZONE:Europe/Berlin
 BEGIN:VTIMEZONE
 TZID:Europe/Berlin
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+0100
-TZOFFSETTO:+0200
-TZNAME:CEST
-DTSTART:19700329T020000
-RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
-END:DAYLIGHT
 BEGIN:STANDARD
+DTSTART:19701025T030000
 TZOFFSETFROM:+0200
 TZOFFSETTO:+0100
 TZNAME:CET
-DTSTART:19701025T030000
-RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:19700329T020000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:plan-20261026T1230-a2b449de@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261026T123000
-DTEND;TZID=Europe/Berlin:20261026T130000
-SUMMARY:Homeoffice-Mittagessen – Kartoffel-Brokkoli-Pfanne mit Ei
-DESCRIPTION:Kartoffeln und Brokkoli aus dem Vorrat\, dazu 2 Eier.
+UID:6a35d1c5-f390-40c9-838c-5af735220422@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261102T120000
+DTEND;TZID=Europe/Berlin:20261102T123000
+SUMMARY:Mittagessen: Hähnchen-Reis-Bowl mit 130 g Hähnchen\, 60 g Reis (roh)\, Gemüse und Joghurtsauce
+DESCRIPTION:ca. 520 kcal | ca. 42 g Eiweiß
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261026T1900-1e6fd88b@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261026T190000
-DTEND;TZID=Europe/Berlin:20261026T194000
-SUMMARY:Abendessen – Hähnchen-Gemüse-Pfanne
-DESCRIPTION:Hähnchen mit viel Gemüse\; nach Hunger Kartoffeln oder Reis dazu.
+UID:fab1cdef-cc99-491c-aee3-d1d602ffefea@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261102T190000
+DTEND;TZID=Europe/Berlin:20261102T193000
+SUMMARY:Abendessen: Vollkorn-Wrap mit 120 g Putenbrust\, Salat\, Tomate und Kräuterquark
+DESCRIPTION:ca. 450 kcal | ca. 38 g Eiweiß
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261026T1800-2939f678@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261026T180000
-DTEND;TZID=Europe/Berlin:20261026T190000
-SUMMARY:Training – Fahrradfahren im Fitnessstudio (erledigt)
-DESCRIPTION:60 Minuten Fahrradfahren. Bereits absolviert\; nicht zusätzlich trainieren nötig.
+UID:3ada6666-69d4-41a7-8391-1a31a2e2a9c3@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261103T120000
+DTEND;TZID=Europe/Berlin:20261103T123000
+SUMMARY:Mittagessen: Meal-Prep: Chili con carne mit magerem Hack\, Kidneybohnen und Reis
+DESCRIPTION:ca. 520 kcal | ca. 38 g Eiweiß
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261027T1200-e15ef24d@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261027T120000
-DTEND;TZID=Europe/Berlin:20261027T130000
-SUMMARY:Kantine – Feldsalat mit Frühlingsrollen oder Linsenlasagne
-DESCRIPTION:Wähle die passendere Option nach Hunger.
+UID:90f627f2-bb5a-497f-ae94-d047f0a04ae8@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261103T190000
+DTEND;TZID=Europe/Berlin:20261103T193000
+SUMMARY:Abendessen: Ofenkartoffeln mit Kräuterquark und Gurkensalat
+DESCRIPTION:ca. 430 kcal | ca. 28 g Eiweiß
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261027T1900-27d5f01e@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261027T190000
-DTEND;TZID=Europe/Berlin:20261027T194000
-SUMMARY:Abendessen – Süßkartoffel-Bowl
-DESCRIPTION:Süßkartoffel mit Gemüse und einer Proteinquelle.
+UID:a77ed335-2498-4fdd-8302-303ff7a07dc2@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261104T120000
+DTEND;TZID=Europe/Berlin:20261104T123000
+SUMMARY:Mittagessen: Vollkornnudeln mit Tomaten-Hack-Sauce und etwas Parmesan
+DESCRIPTION:ca. 520 kcal | ca. 38 g Eiweiß
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261027T1730-a2a9fd9e@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261027T173000
-DTEND;TZID=Europe/Berlin:20261027T180500
-SUMMARY:Training – Ganzkörper-Krafttraining
-DESCRIPTION:25–35 Minuten: Kniebeugen\, Hüftheben\, Liegestütz-Variante\, Rudern mit Rucksack und Plank\; 2–3 Runden in angenehmem Tempo.
+UID:200811ae-5d87-4fee-bfad-8d57cc4c673b@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261104T190000
+DTEND;TZID=Europe/Berlin:20261104T193000
+SUMMARY:Abendessen: Omelett aus 2 Eiern mit Hüttenkäse\, Gemüse und einer Scheibe Brot
+DESCRIPTION:ca. 430 kcal | ca. 32 g Eiweiß
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261028T1230-d63f8753@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261028T123000
-DTEND;TZID=Europe/Berlin:20261028T130000
-SUMMARY:Homeoffice-Mittagessen – Kartoffeln\, Brokkoli und Ei
-DESCRIPTION:Kartoffeln und Brokkoli mit 2 Eiern.
+UID:e4c31726-6e1d-4b74-805a-5cee05a5f7cb@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261105T120000
+DTEND;TZID=Europe/Berlin:20261105T123000
+SUMMARY:Mittagessen: Kantine: Puten-Gyros mit Salat und einer moderaten Portion Reis oder Kartoffeln\; Sauce separat
+DESCRIPTION:ca. 550–650 kcal | ca. 35–45 g Eiweiß. Alternative: orientalischer Wrap mit Feta.
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261028T1800-685f9bde@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261028T180000
-DTEND;TZID=Europe/Berlin:20261028T190000
+UID:b29bed63-7d9f-46bf-8b82-226900dc7c6f@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261105T190000
+DTEND;TZID=Europe/Berlin:20261105T193000
+SUMMARY:Abendessen: Großer Salat mit Thunfisch\, Mais\, Ei und Vollkornbrot
+DESCRIPTION:ca. 430 kcal | ca. 38 g Eiweiß
+END:VEVENT
+BEGIN:VEVENT
+UID:bedbfe46-3f25-455e-9a07-678da233273f@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261106T120000
+DTEND;TZID=Europe/Berlin:20261106T123000
+SUMMARY:Mittagessen: Kartoffel-Gemüse-Pfanne mit 150 g Hähnchen und Kräuterquark
+DESCRIPTION:ca. 520 kcal | ca. 42 g Eiweiß
+END:VEVENT
+BEGIN:VEVENT
+UID:2f314193-1f0e-453e-a025-a345269f4ee8@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261106T190000
+DTEND;TZID=Europe/Berlin:20261106T193000
+SUMMARY:Abendessen: Feta-Gemüse-Omelett mit 2 Eiern und Brot
+DESCRIPTION:ca. 430 kcal | ca. 27 g Eiweiß
+END:VEVENT
+BEGIN:VEVENT
+UID:f87478be-e90c-4661-9cea-6ae5c0eaa188@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261107T120000
+DTEND;TZID=Europe/Berlin:20261107T123000
+SUMMARY:Mittagessen: Flohmarkt-taugliche Lunchbox: Vollkorn-Wrap mit Hähnchen\, Salat und Joghurtsauce
+DESCRIPTION:ca. 450 kcal | ca. 35 g Eiweiß
+END:VEVENT
+BEGIN:VEVENT
+UID:ab3ad6f0-c92a-4b28-bd86-da5dc2cb940c@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261107T190000
+DTEND;TZID=Europe/Berlin:20261107T193000
+SUMMARY:Abendessen: Beim Konzert flexibel: z. B. Bowl mit Hähnchen/Tofu oder belegtes Vollkornbrötchen\; Sauce separat
+DESCRIPTION:ca. 450–550 kcal | Eiweißquelle einplanen
+END:VEVENT
+BEGIN:VEVENT
+UID:c7492eb0-5bc5-4c32-84ee-a71f274f7d85@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261108T120000
+DTEND;TZID=Europe/Berlin:20261108T123000
+SUMMARY:Mittagessen: Ofenhähnchen mit Kartoffeln\, Brokkoli und Joghurtdip
+DESCRIPTION:ca. 520 kcal | ca. 42 g Eiweiß
+END:VEVENT
+BEGIN:VEVENT
+UID:c1c6e8a8-9288-4861-af50-9d1cc3bd4bab@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261108T190000
+DTEND;TZID=Europe/Berlin:20261108T193000
+SUMMARY:Abendessen: Vollkornbrot mit Räucherlachs\, Frischkäse und Rohkost
+DESCRIPTION:ca. 430 kcal | ca. 30 g Eiweiß
+END:VEVENT
+BEGIN:VEVENT
+UID:b42078b2-8627-42e4-8bb5-773f6cbffe32@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261102T160000
+DTEND;TZID=Europe/Berlin:20261102T170000
+SUMMARY:Fahrradfahren – 60 Minuten
+DESCRIPTION:Moderates Tempo\, so dass du dich noch unterhalten kannst. Danach trinken und normal Abendessen.
+END:VEVENT
+BEGIN:VEVENT
+UID:13574a9e-1e23-4ecd-a4e7-c9401245fe48@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261103T160000
+DTEND;TZID=Europe/Berlin:20261103T165000
+SUMMARY:Ganzkörper-Krafttraining A
+DESCRIPTION:Beinpresse 3x10–12\, Latzug 3x10–12\, Brustpresse 2x10–12\, Beinbeuger 2x12\, Rudern 2x10–12\, Dead Bug 2x10 je Seite. Saubere Technik\, nicht bis zur völligen Erschöpfung.
+END:VEVENT
+BEGIN:VEVENT
+UID:5da3c3b9-1f9e-482f-8fff-4c41f324efb1@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261104T171500
+DTEND;TZID=Europe/Berlin:20261104T181500
 SUMMARY:Tanzen
-DESCRIPTION:Fester Tanztag. Wasser mitnehmen.
+DESCRIPTION:Deine gewohnte Tanzeinheit. Bei Bedarf vorher einen kleinen Snack essen.
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261028T1915-ac2084e4@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261028T191500
-DTEND;TZID=Europe/Berlin:20261028T194500
-SUMMARY:Abendessen – Hähnchen-Wrap
-DESCRIPTION:Vollkornwrap mit Hähnchen\, Salat/Gemüse und Joghurtsauce.
+UID:cc8d1926-ed4b-4767-91c0-fd123b526caf@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261105T160000
+DTEND;TZID=Europe/Berlin:20261105T162500
+SUMMARY:Lockerer Spaziergang
+DESCRIPTION:20–25 Minuten zur aktiven Erholung\; kein zusätzliches intensives Training nötig.
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261029T1200-488c35b6@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261029T120000
-DTEND;TZID=Europe/Berlin:20261029T130000
-SUMMARY:Kantine – Geschmortes Hähnchen
-DESCRIPTION:Kantinenessen\; Beilage und Portionsgröße nach Hunger wählen.
+UID:2d558c35-76aa-4833-aa1e-3cd2cf2e15e7@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261106T160000
+DTEND;TZID=Europe/Berlin:20261106T162000
+SUMMARY:Bewegungspause / Spaziergang
+DESCRIPTION:Optional 15–20 Minuten locker gehen oder Mobility. Wenn die Woche anstrengend war: vollständig pausieren.
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261029T1900-885af516@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261029T190000
-DTEND;TZID=Europe/Berlin:20261029T194000
-SUMMARY:Abendessen – Ofenkartoffeln mit Kräuterquark und Brokkoli
-DESCRIPTION:Kartoffeln mit Kräuterquark und Brokkoli.
+UID:68fab7d0-d6b5-4eb2-8a2d-7e1451f0c085@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Flohmarkt & Konzert
+DESCRIPTION:Terminblock für den Samstag. Zeiten nicht angegeben\; Mahlzeiten möglichst mitnehmen und ausreichend trinken.
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261029T1800-795943d7@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261029T180000
-DTEND;TZID=Europe/Berlin:20261029T183000
-SUMMARY:Bewegung – lockerer Spaziergang oder Erholung
-DESCRIPTION:20–30 Minuten locker gehen\, wenn du dich fit fühlst\; sonst Pause.
+UID:3e1fce00-281c-4df6-9800-b3eae200e50a@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261108T160000
+DTEND;TZID=Europe/Berlin:20261108T165000
+SUMMARY:Ganzkörper-Krafttraining B
+DESCRIPTION:Hip Thrust 3x10–12\, Beinpresse oder Kniebeuge 3x10\, Rudern 3x10–12\, Latzug 2x10–12\, Beinbeuger 2x12\, Plank 2x20–30 Sekunden. Bei Müdigkeit auf 30 Minuten verkürzen.
 END:VEVENT
 BEGIN:VEVENT
-UID:plan-20261030T1230-f05196c0@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261030T123000
-DTEND;TZID=Europe/Berlin:20261030T130000
-SUMMARY:Mitgebrachtes Mittagessen – Hähnchen-Kartoffel-Gemüse-Box
-DESCRIPTION:Meal Prep aus Hähnchen\, Kartoffeln und Gemüse.
-END:VEVENT
-BEGIN:VEVENT
-UID:plan-20261030T1900-c74d028f@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261030T190000
-DTEND;TZID=Europe/Berlin:20261030T194000
-SUMMARY:Abendessen – Linsen-Tomaten-Pasta
-DESCRIPTION:Vollkornnudeln mit Linsen-Tomatensauce.
-END:VEVENT
-BEGIN:VEVENT
-UID:plan-20261031T1230-6326ca2d@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261031T123000
-DTEND;TZID=Europe/Berlin:20261031T130000
-SUMMARY:Mittagessen – Reis-Gemüse-Pfanne mit Ei
-DESCRIPTION:Reis mit Gemüse und 2 Eiern.
-END:VEVENT
-BEGIN:VEVENT
-UID:plan-20261031T1600-d13f4909@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261031T160000
-DTEND;TZID=Europe/Berlin:20261031T163500
-SUMMARY:Bewegung – Spaziergang
-DESCRIPTION:30–40 Minuten in angenehmem Tempo.
-END:VEVENT
-BEGIN:VEVENT
-UID:plan-20261031T1900-1e5be691@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261031T190000
-DTEND;TZID=Europe/Berlin:20261031T194000
-SUMMARY:Abendessen – Ofenkartoffel mit Hüttenkäse
-DESCRIPTION:Ofenkartoffel mit Hüttenkäse oder Kräuterquark.
-END:VEVENT
-BEGIN:VEVENT
-UID:plan-20261101T1000-9e6dc5bf@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261101T100000
-DTEND;TZID=Europe/Berlin:20261101T103500
-SUMMARY:Training – Ganzkörper-Krafttraining
-DESCRIPTION:25–35 Minuten: Kniebeugen\, Hüftheben\, Liegestütz-Variante\, Rudern mit Rucksack und Plank\; 2–3 Runden in angenehmem Tempo.
-END:VEVENT
-BEGIN:VEVENT
-UID:plan-20261101T1230-0ee888b2@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261101T123000
-DTEND;TZID=Europe/Berlin:20261101T130000
-SUMMARY:Mittagessen – Ofengemüse mit Kartoffeln und Feta
-DESCRIPTION:Kartoffeln und Gemüse aus dem Ofen\, dazu Feta.
-END:VEVENT
-BEGIN:VEVENT
-UID:plan-20261101T1900-14164bfb@chatgpt
-DTSTAMP:20261026T191704Z
-DTSTART;TZID=Europe/Berlin:20261101T190000
-DTEND;TZID=Europe/Berlin:20261101T193000
-SUMMARY:Abendessen – Vollkornbrot mit Hüttenkäse
-DESCRIPTION:Vollkornbrot mit Hüttenkäse und Rohkost.
+UID:dbc7f030-cfbb-4868-b734-18b5795f5b81@chatgpt
+DTSTAMP:20261030T195100Z
+DTSTART;TZID=Europe/Berlin:20261108T170000
+DTEND;TZID=Europe/Berlin:20261108T171500
+SUMMARY:Wochenrückblick & Vorbereitung
+DESCRIPTION:Kurz prüfen: Wie oft trainiert? Wie war Hunger/Energie? 2–3 Mahlzeiten für die nächste Woche grob vorbereiten.
 END:VEVENT
 END:VCALENDAR
